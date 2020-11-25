@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mind_experience_app/screens/calendar_screen.dart';
 import 'package:mind_experience_app/widgets/chat_bubble.dart';
+import 'package:mind_experience_app/widgets/messages.dart';
+import '../widgets/new_message.dart';
 
 class ChatScreen extends StatelessWidget {
   @override
@@ -21,6 +24,10 @@ class ChatScreen extends StatelessWidget {
             ),
             onPressed: () {
               print('Clicked');
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Calendar()),
+              );
             },
           ),
           IconButton(
@@ -34,7 +41,17 @@ class ChatScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Bubble(),
+      body: Container(
+        color: Colors.white,
+        child: Column(
+          children: <Widget>[
+            Expanded(
+              child: Bubble(),
+            ),
+            NewMessage(),
+          ],
+        ),
+      ),
     );
   }
 }

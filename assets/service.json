@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mind-experience",
+  "private_key_id": "a0c85249362c71eef12c9d20601dabcb8a6a5df8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCP8azUTKyz6elX\n2BKPRHEKMAevxV/EkJEoBdFI16tWCb3GeF9gmzVeV/jDiJATFy/l4QADxD5oLxb/\n6W8wO5jqH/lS6mp7y7pkdg7IkSJoYfMubFL1vkWiL8eFr3l84ydEH5GnEumdo8Ja\ngqWygY/nwIBXiixCFmYtTsrAaU8e7inrMCBJ2ZCX+KdpV7hCaiqWCHWv8WFnj2DW\ngDh2xp6VB+ql3JswB3LY7j5VSFqls7jdGyJI+7UaMuxIbWoN+s78lmU5PV/Ew9J0\nt4uT3lD9OPZ/d4kn5G4Y5XAPwlxv4asfo5wyosXZZzGvuMlLCvkzc2rX+aGuo6++\nh3+pHbwxAgMBAAECggEABFUnSTgaGiu8H+5jZ5/NIbv+nTwtBOT/k4NyUFWahQNT\nzJ+mqkkdrv5poNQRVxvDb7FJL3PWl4r0T6VieQKQOJrYBbaD2EBSds/lY8TXkuoA\n2Hi++gHdRXOX9zaICvno3ohvOUbM1Jd/Y/tK+r+i2dxN2KSybpZPQsWcfXRmAuWn\nes7ypitjLi0Wz0ipp6qs8YUdlfXtPPAKXB/x+q3VWzCuBd4/xSyVaLx3AY+Yhucl\nIbqbJrzBjTAuBi+ve1x0mGTL4tfjCgkmQw7oLRHgKqzyhrifHrQKMJWwzewvXWux\nUlFUc8qbUZvvRdcvnvcNaDlvsmiDHdG9Qwsa2GWAAQKBgQDE17UEKVDL112lmPeV\n43ogMJ/NTwQh4u7YdBUWB1zU4zTzGyp8rkTxwxiuMhJy6Admf62y6jw+vGNPl5mP\nQ/+pBWXugjYp15B38C2pdejaGYCiCk2VQ13NdaUdkyqaJ8jaU7C7QTYZUMeTMIDo\n7x7gmt4G6EdXJM+BrCDgEmj8MQKBgQC7NClXEBBrpxXwhYOvSAm0r5nL+eH6/2Ak\nLPnXryQ5IxDC8ZbdSbtKdOVAMSX2uvEVHFR8H+6VFP4gI5qNhHH/IiSiTTmcjqZ5\npz+B28QmsoUfiSV+/Kjm/iSEC+p4YGPcGiKy21KKy9jhzIWJSsDImggKr8VM2PqI\n2J55XpDAAQKBgBcGbGQqOQs/C/M862kbDMQLLAYmAgO8udeT7IuBHPjCAwWU3elr\nsSDeg1qM/N94CLWSpczR3W4xNySuRQYfHB63RO8bSB6o2ntNGupBopUwen152w1k\nrepEoqXM+yTBFpuDQp8Ex8E6U74B5HJa1i/LrcD9Fqs44RT3/3h2btVhAoGBAKPG\na5BObn8v6yLEO8OCG3Om2L85urjy6DJd4qoOAHu4MLbL0reABMmL4PA6z0K+o6Fb\napI5AWoNtpF5dIHwaCbTwQb41rkfl4cAia/bCwzry0kem94vvrhviJS5NATiFxr9\nBnRBKkJhOjm4yu6kpmoZT4XB5rNndC96i5IU6EABAoGARdd+rhkVKqSQWAi8hmGB\nFPjqlj6h7Hd1jiTqHcr7XlfgfKIdAoKq9Uq9wpN/LUNl7ixzg8ylVkYw5P+PM2qa\n3L1nifSxfBAaOjo6hfnAouZU0vB1klwnCAUmOBgVBI20K9RTKWYkzpGgMzU7YTFL\nZ3aMTRRml9uW9RyvG+5hUWE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-hku-mind-experience@mind-experience.iam.gserviceaccount.com",
+  "client_id": "103324103463024904015",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-hku-mind-experience%40mind-experience.iam.gserviceaccount.com"
+}

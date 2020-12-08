@@ -15,12 +15,10 @@ class MessageModel extends ChangeNotifier {
         Dialogflow(authGoogle: authGoogle, language: Language.english);
     AIResponse aiResponse = await dialogflow.detectIntent(query);
 
-    _chatMessages.add({
-      "data": 0,
-      "message": aiResponse.getListMessage()[0]["text"]["text"][0].toString()
+    aiResponse.getListMessage().forEach((element) {
+      _chatMessages
+          .add({"data": 0, "message": element["text"]["text"][0].toString()});
     });
-
-    print(aiResponse.getListMessage()[0]["text"]["text"][0].toString());
     notifyListeners();
   }
 

@@ -12,10 +12,10 @@ class ChatScreen extends StatelessWidget {
       create: (_) => MessageModel(),
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
-            'Meebo',
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
-          ),
+          // title: Text(
+          //   'Meebo',
+          //   style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+          // ),
           elevation: 0,
           backgroundColor: Colors.white,
           actions: [

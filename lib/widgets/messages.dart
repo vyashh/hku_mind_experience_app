@@ -17,6 +17,7 @@ class Messages extends StatefulWidget {
 
 ScrollController _scrollController = ScrollController();
 
+// scroll to bottom function
 void _scrollToBottom() {
   _scrollController.jumpTo(_scrollController.position.maxScrollExtent);
 }
@@ -24,6 +25,7 @@ void _scrollToBottom() {
 class _MessagesState extends State<Messages> {
   @override
   void initState() {
+    // scroll to bottom when new item is added
     Timer.periodic(Duration(milliseconds: 100), (timer) {
       if (mounted) {
         _scrollToBottom();

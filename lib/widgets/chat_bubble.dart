@@ -15,20 +15,11 @@ class _ChatBubbleState extends State<ChatBubble> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(left: 20, right: 20),
       child: Row(
         mainAxisAlignment:
             widget.data == 1 ? MainAxisAlignment.end : MainAxisAlignment.start,
         children: [
-          widget.data == 0
-              ? Container(
-                  height: 60,
-                  width: 60,
-                  child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/img/ai.png"),
-                  ),
-                )
-              : Container(),
+          widget.data == 0 ? SizedBox() : SizedBox(),
           Padding(
             padding: EdgeInsets.all(10.0),
             child: Bubble(
@@ -58,15 +49,7 @@ class _ChatBubbleState extends State<ChatBubble> {
                   ),
                 )),
           ),
-          widget.data == 1
-              ? Container(
-                  height: 60,
-                  width: 60,
-                  child: CircleAvatar(
-                    backgroundColor: Theme.of(context).accentColor,
-                  ),
-                )
-              : Container(),
+          widget.data == 1 ? SizedBox() : Container(),
         ],
       ),
     );
